@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color:#F7FAFF;
+    padding: 30px 150px;
+}
+.top-nav{
+    display: flex;
+    height: 66px;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.86px;
+    line-height: 55px;
+    letter-spacing: -0.045em;
+    color: #0068FF;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav li {
+    list-style: none;
+    margin: 0 25px;
+    display: inline-block;
+    height: 33px;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #0068FF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.nav li:hover::after {
+    width: 100%;
+}
+.top-nav a {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: #0068FF;
+    border: 1px solid #0068FF;
+    z-index: 5;
+    border-radius: 0px 8px;
+}
+section-1{
+    display: flex;
+    width: 1200px;
+    height: 728px;
+    margin-top: 50px;
+}
+#details{
+    height: 415px;
+    width: 583px;
+    margin: auto 0;
+}
+#details h1 {
+     font-family: 'Neue Helvetica';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 72px;
+     color: #313233;
+ }
+
+#details h1 span {
+     color: #0068FF;
+ }
+
+#details h3 {
+     font-family: 'AktivGrotesk-Regular';
+     font-size: 36px;
+     line-height: 42px;
+ }
+.generate{
+    margin-top: 100px;
+}
+.generate a {
+     background: #0068FF;
+     padding: 20px 50px;
+     color: white;
+     box-shadow: 8px 8px 20px rgba(85, 154, 255, 0.31);
+     border-radius: 0px 8px;
+     text-decoration: none;
+ }
+.section-img{
+    height: 728px;
+    width: 619px;
+    position: relative;
+}
+.section-img .dashed{
+    height: 666px;
+    width: 570px;
+    border: 4px dashed #0068FF;
+    border-radius: 0px 160px;
+}
+.section-img img{
+    position: absolute;
+    top: 62px;
+    left: 48px;
+    height: 666px;
+    width: 570px;
+    border-radius: 0px 160px;
+    object-fit: cover;
+}
+.logoss{
+    margin: 50px  0;
+    width: 1200px;
+    height: 42px;
+}
+.legal{
+    margin-top: 50px;
+}
+.legal {
+    font-family: 'Neue Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #313233;
+}
+
+.legal span {
+    color: #0068FF;
+}
+.heading {
+    font-family: 'Neue Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: center;
+    color: #313233;
+}
+.side{
+    margin-left: 400px;
+}
+.heading span {
+    color: #0068FF;
+}
+.cont-2{
+    margin-bottom: 100px;
+    width: 1201px;
+    height: 592px;
+}
+.cont-2 h1 {
+    font-family: 'Neue Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 51px;
+    color: #313233;
+}
+
+.cont-2 p {
+    margin-bottom: 60px;
+    font-family: 'AktivGrotesk-Regular';
+    font-size: 22px;
+    line-height: 33px;
+    color: #313233;
+}
+.cont-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-1 {
+    position: relative;
+    width: 445.42px;
+    height: 519.97px;
+}
+
+.sec-1 img {
+    position: absolute;
+    width: 445.42px;
+    height: 519.97px;
+    object-fit: cover;
+    left: 70px;
+    border-radius: 160px 0PX;
+}
+
+.sec-2 {
+    width: 500px;
+}
+
+.sec-2 p {
+    margin-bottom: 60px;
+}
+.content-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1201px;
+    height: 592px;
+}
+
+.content-3a{
+    margin: 100px 0;
+    width: 985px;
+    height: 713px;
+    background-color: red;
+}
+.sec-3 {
+    width: 592px;
+    height: 322px;
+}
+
+.sec-4 {
+    /* background: url(./e80a226d515f15ca7e4a0cc15a69a524\ \(1\).png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec-3 h1 {
+    font-family: 'Neue Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 51px;
+    color: #313233;
+}
+
+.sec-3 p {
+    margin-bottom: 60px;
+    font-family: 'AktivGrotesk-Regular';
+    font-size: 22px;
+    line-height: 33px;
+    color: #313233;
+}
+.sec-4{
+    position: relative;
+    width: 445.42px;
+    height: 519.97px;
+    border-radius: 0px 160px;
+}
+
+.sec-4 img {
+    position: absolute;
+    bottom: 35px;
+    right: 70px;
+    width: 445.42px;
+    height: 519.97px;
+    object-fit: cover;
+    border-radius: 0px 160px;
+}
+.sec-5 {
+    height: 360px;
+    padding-top: 30px;
+    background-color: rgba(123, 125, 128, 0.05);
+    text-align: center;
+    position: relative;
+}
+
+.sec-5 h1 {
+    font-family: Neue Helvetica;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    color: #313233;
+    ;
+}
+
+.sec-5 .impact {
+    display: flex;
+    margin-top: 15px;
+}
+
+.sec-5 .impact-t-c {
+    width: calc(100%/3);
+
+}
+
+.sec-5 .impact-t-c h1,
+.sec-5 .impact-policy h1,
+.sec-5 .impact-bus h1 {
+    font-family: Neue Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+}
+
+.sec-5 .impact-t-c p,
+.sec-5 .impact-policy p,
+.sec-5 .impact-bus p {
+    font-family: AktivGrotesk-Regular;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+.sec-5 .impact-policy {
+    width: calc(100%/3);
+}
+
+.sec-5 .impact-bus {
+    width: calc(100%/3);
+}
+.sec-6 {
+    height: 659px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.sec-6 h1 {
+    font-family: Neue Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    color: #313233;
+}
+
+.choose {
+    display: flex;
+    align-items: center;
+    margin-top: 88px;
+    justify-content: center;
+    gap: 180px;
+
+}
+
+.manual,
+.monitoring,
+.update {
+    padding: 30px 20px 20px 20px;
+    width: 238.42px;
+    height: 281.55px;
+    background: #FDFEFF;
+    box-shadow: 0px 30px 45px rgba(0, 104, 255, 0.1);
+    border-radius: 15.9257px;
+}
+
+.manual h1,
+.monitoring h1,
+.update h1 {
+    font-family: 'Neue Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.8513px;
+    line-height: 41px;
+    text-align: center;
+    color: #002355;
+}
+
+.manual p,
+.monitoring p,
+.update p {
+    font-family: AktivGrotesk-Regular;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.testimonial {
+    height: 498px;
+}
+
+.testimonial h1 {
+    text-align: center;
+    font-family: 'Neue Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #313233;
+}
+
+.testimonial-sec {
+    display: flex;
+    gap: 15px;
+    margin: 50px 50px 0 80px;
+}
+.testimonial-sec span{
+    width: 2px;
+    background-color: #313233;;
+}
+.testimonial-img img {
+    width: 416px;
+    height: 304px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.testimonial-detail {
+    width: 616px;
+    height: 304px;
+    text-align: left;
+}
+
+.testimonial-detail p {
+    margin-top: 150px;
+    font-family: 'AktivGrotesk-Regular';
+    font-size: 22px;
+    line-height: 38px;
+    color: #313233;
+}
+
+.testimonial-detail h4 {
+    margin-left: 80px;
+    font-family: 'AktivGrotesk-Bold';
+    font-size: 18px;
+    line-height: 21px;
+    color: #313233;
+}
+
+.testimonial-btn .btn {
+    width: 50px;
+    height: 304px;
+    background-color: #49871F;
+    border: none;
+    border-radius: 0 10px;
+}
+
+footer{
+    width: 1500px;
+    height: 366.64px;
+    background: #E2B93B;
+    padding: 30px 150px;
+}
+.footer-sub {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 280px;
+}
+
+.privco p {
+    margin-top: 50px;
+    font-family: 'AktivGrotesk-Regular';
+    font-size: 18.1808px;
+    line-height: 21px;
+    color: #001533;
+
+}
+
+.sec-7 {
+    display: flex;
+}
+
+.about,
+.complaint,
+.connect,
+.products {
+    margin: 0 20px;
+}
+
+.about ul,
+.complaint ul,
+.connect ul,
+.products ul {
+    list-style: none;
+    margin-top: 30px;
+    font-family: 'AktivGrotesk-Regular';
+    font-size: 18.1808px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.about ul li,
+.complaint ul li,
+.connect ul li,
+.products ul li {
+    margin-top: 10px;
+}
+
+.about h2,
+.complaint h2,
+.connect h2,
+.products h2 {
+    font-family: 'AktivGrotesk-Bold';
+    font-size: 18.1808px;
+    line-height: 21px;
+    color: #001533;
+}
+
+.sec-7 a {
+    text-decoration: none;
+    color: #001533;
+}
